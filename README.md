@@ -1,1 +1,1 @@
-# kafka-rest-client
+# Kafka REST Client
