@@ -2,9 +2,8 @@
     "compilerOptions": {
         "module": "commonjs",
         "target": "es2018",
-        "noImplicitAny": true,
         "removeComments": true,
-        "preserveConstEnums": true,
+        "noImplicitAny": true,
         "outDir": "dist/"
     },
     "include": [

@@ -1,13 +1,13 @@
 {
-  "name": "kafka-rest-client",
+  "name": "kafka-restapi-client",
   "version": "1.0.0",
   "dependencies": {
+    "@types/node": "^12.7.5",
     "request": "^2.88.0",
     "request-promise": "^4.2.4"
   },
-  "description": "",
+  "description": "Confluent Kafka REST Proxy Client for Node.js",
   "main": "dist/index.js",
-  "devDependencies": {},
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js"
@@ -18,7 +18,10 @@
   },
   "keywords": [
     "kafka",
-    "kafka-rest"
+    "confluent-kafka",
+    "kafka-rest-proxy",
+    "kafka-rest-client",
+    "client"
   ],
   "author": "Marc Solé Fonte",
   "license": "Apache-2.0",
