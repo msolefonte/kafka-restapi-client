@@ -9,11 +9,12 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/msolefonte/kafka-rest-client.git"
+    "url": "git+https://github.com/msolefonte/kafka-restapi-client.git"
   },
   "keywords": [
     "kafka",
@@ -25,10 +26,11 @@
   "author": "Marc Solé Fonte",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/msolefonte/kafka-rest-client/issues"
+    "url": "https://github.com/msolefonte/kafka-restapi-client/issues"
   },
-  "homepage": "https://github.com/msolefonte/kafka-rest-client#readme",
+  "homepage": "https://github.com/msolefonte/kafka-restapi-client#readme",
   "devDependencies": {
-    "@types/node": "^12.7.5"
+    "@types/node": "^12.7.5",
+    "jest": "^24.9.0"
   }
 }
