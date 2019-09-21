@@ -2,9 +2,8 @@
   "name": "kafka-restapi-client",
   "version": "1.0.0",
   "dependencies": {
-    "@types/node": "^12.7.5",
     "request": "^2.88.0",
-    "request-promise": "^4.2.4"
+    "request-promise-native": "^1.0.7"
   },
   "description": "Confluent Kafka REST Proxy Client for Node.js",
   "main": "dist/index.js",
@@ -28,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/msolefonte/kafka-rest-client/issues"
   },
-  "homepage": "https://github.com/msolefonte/kafka-rest-client#readme"
+  "homepage": "https://github.com/msolefonte/kafka-rest-client#readme",
+  "devDependencies": {
+    "@types/node": "^12.7.5"
+  }
 }
