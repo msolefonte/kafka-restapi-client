@@ -1,0 +1,29 @@
+{
+  "name": "kafka-rest-client",
+  "version": "1.0.0",
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "description": "",
+  "main": "dist/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msolefonte/kafka-rest-client.git"
+  },
+  "keywords": [
+    "kafka",
+    "kafka-rest"
+  ],
+  "author": "Marc Solé Fonte",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/msolefonte/kafka-rest-client/issues"
+  },
+  "homepage": "https://github.com/msolefonte/kafka-rest-client#readme"
+}
