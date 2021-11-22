@@ -1,1 +1,3 @@
-# Kafka REST Client
+# Kafka REST API Client
+
+Archived.
